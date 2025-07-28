@@ -1,0 +1,52 @@
+
+
+/* Hero Section Styles */
+.hero-section {
+  background: linear-gradient(135deg, rgba(65, 71, 82, 0) 0%, rgba(51, 89, 228, 0) 100%), url('https://wallpaperaccess.com/full/19602.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+}
+.hero-section p {
+  font-size: 1.25rem;
+}
+.hero-section button {
+  padding: 12px 32px;
+  font-size: 1rem;
+  background: #fff;
+  color: #3358e4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.hero-section button:hover {
+  background: #3358e4;
+  color: #fff;
+}
+
+/* Features Section Styles */
+.features-section {
+  padding: 60px 0;
+  background: #f7f9fb;
+}
+.features-section .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.feature-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 300px;
+}
