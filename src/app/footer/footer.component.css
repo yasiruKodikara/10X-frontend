@@ -1,0 +1,30 @@
+.footer {
+  background-color: #111;  /* dark background */
+  color: #ddd;
+  font-size: 14px;
+}
+
+.text-green {
+  color: #00ff88; /* neon green accent */
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #00ff88;
+  padding-left: 4px;
+}
+
+.social-icons a {
+  font-size: 1.4rem;
+  color: #bbb;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00ff88;
+}
